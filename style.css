@@ -1,0 +1,85 @@
+.icons {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(222, 221, 221);
+    border-radius: 50%;
+    color:grey;
+}
+
+.user{
+    background: url('./assets/avatar-1.jpg');
+    background-size: contain;
+    border-radius: 50%;
+    border: none;
+    
+}
+
+.jumbotron, .jumbotron button.bg-success {
+    color: white;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+
+}
+
+.jumbotron p {
+    width: 65%;
+    color:lightgray;
+}
+
+.jumbotron img {
+  max-width: 100%;  
+}
+
+.smaller {
+    font-size: small;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 15px;
+}
+
+.card-deck .card {
+    flex: 1 0 auto;
+}
+
+ion-icon[name = "videocam"] {
+    color: rgb(255, 64, 0);
+}
+
+ion-icon[name="videocam"]  div {
+    background-color: orange;
+}
+
+ion-icon[name="cellular-outline"] {
+    color: blue;
+}
+
+.button-card img{
+    width: 15%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ion-icon[name="bookmark"] {
+    width: 3em;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.full-price {
+    text-decoration: line-through;
+    color: grey;
+    font-weight: normal;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 4%;
+}
